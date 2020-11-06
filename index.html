@@ -3,30 +3,78 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Css-Dinner</title>
+
 </head>
 
 <body>
-    <header>
-        <div class="header">
+    <header class="dinner-head">
+        <div class="dinner-header">
             <h2>CSS Diner Shopping List</h2>
             <h3>Let's go to the mall!</h3>
         </div>
     </header>
-    <main>
-        <div class="list">
-            <div>A lot of pickles<small>(for the next lesson about CSS)</small></div>
-            <div><s>10 apples<small>(for more CSS manipulations)</small></s></div>
-            <div>20 oranges<small>(because they are awesome)</small></div>
-            <div>20 oranges<small>(because they are awesome)</small></div>
-            <div>13 plates<small>(hm...they always disappear)</small></div>
-            <div>15 bentos</div>
-            <div><s>1 bottle of sake^_^<small>(for my friends)</small></s></div>
-        </div>
-        <div class="comment">
-            Bon appetit :)
-        </div>
-    </main>
+    <div class="dinner-conteiner">
+        <main>
+            <div class="list">
+                <div class="pickles">
+                    <input type="checkbox" id="pickles">
+                    <label for="pickles">
+                        A lot of pickles
+                    </label>
+                    <small>for the next lesson about CSS</small>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="apples">
+                    <label for="apples">
+                        10 apples
+                    </label>
+                    <small>for more CSS manipulations</small>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="oranges">
+                    <label for="oranges">
+                        20 oranges
+                    </label>
+                    <small>because they are awesome</small>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="plates">
+                    <label for="plates">
+                        13 plates
+                    </label>
+                    <small>hm...they always disappear</small>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="bentos">
+                    <label for="bentos">
+                        15 bentos
+                    </label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="bottle">
+                    <label for="bottle">
+                        1 bottle of sake^_^
+                    </label>
+                    <small>for my friends</small>
+                </div>
+
+            </div>
+            <div class="dinner-footer">
+                <p>Bon appetit :)</p>
+            </div>
+
+        </main>
+    </div>
 </body>
 
 </html>
